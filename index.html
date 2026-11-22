@@ -1,190 +1,67 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#07100b" />
-  <title>Kerala Lottery Information | Results & Official Resources</title>
-  <meta name="description" content="An independent information page with links to Kerala State Lotteries official results, draw schedules and public resources." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet" />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: { extend: {
-        fontFamily: { sans: ['Inter', 'sans-serif'], display: ['Plus Jakarta Sans', 'Inter', 'sans-serif'] },
-        colors: { forest: '#0b1a12', gold: '#facc15', emerald: '#19c987' },
-        animation: { 'float-soft': 'floatSoft 4s ease-in-out infinite', 'shine': 'shine 4s linear infinite' },
-        keyframes: {
-          floatSoft: { '0%,100%': { transform: 'translateY(0)' }, '50%': { transform: 'translateY(-5px)' } },
-          shine: { '0%': { backgroundPosition: '-200% center' }, '100%': { backgroundPosition: '200% center' } }
-        }
-      }}
-    };
-  </script>
-  <style>
-    * { -webkit-tap-highlight-color: transparent; }
-    body {
-      background: radial-gradient(ellipse at 50% -10%, rgba(22,163,74,.18), transparent 48%), #080d0a;
-      color: #f8fafc; overflow-x: hidden;
-    }
-    .gold-text {
-      background: linear-gradient(110deg,#fff7ae,#facc15,#d99a08,#fff2a1);
-      background-size: 220% auto; -webkit-background-clip: text; background-clip: text; color: transparent;
-      animation: shine 5s linear infinite;
-    }
-    .panel {
-      background: linear-gradient(145deg,rgba(13,29,20,.96),rgba(8,16,12,.96));
-      border: 1px solid rgba(250,204,21,.22);
-      box-shadow: 0 18px 48px rgba(0,0,0,.35), inset 0 1px rgba(255,255,255,.025);
-    }
-    .info-card {
-      background: rgba(3,10,7,.72); border: 1px solid rgba(52,211,153,.16);
-      transition: transform .22s ease,border-color .22s ease,background .22s ease;
-    }
-    .info-card:hover { transform: translateY(-3px); border-color: rgba(52,211,153,.45); background: rgba(5,18,12,.92); }
-    .action {
-      background: linear-gradient(105deg,#1fc978,#119b58); color: #fff;
-      box-shadow: 0 10px 28px rgba(25,201,135,.2); transition: transform .2s ease,filter .2s ease;
-    }
-    .action:hover { filter: brightness(1.08); transform: translateY(-2px); }
-    .action:active { transform: scale(.985); }
-    .step-number { background: linear-gradient(145deg,#ffe16a,#e6a900); color:#111; }
-    @media (prefers-reduced-motion: reduce) {
-      *,*::before,*::after { animation-duration:.01ms !important; animation-iteration-count:1 !important; scroll-behavior:auto !important; transition-duration:.01ms !important; }
-    }
-  </style>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#07100b">
+<title>Kerala Lottery Information</title>
+<meta name="description" content="Independent Kerala lottery information page with official result and public information links.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#100b09;color:#f8fafc;font-family:Inter,Arial,sans-serif;padding-bottom:100px}
+.top{height:64px;background:#06110b;border-bottom:1px solid rgba(250,204,21,.22);display:flex;align-items:center;justify-content:space-between;padding:0 max(calc((100% - 500px)/2),22px);position:sticky;top:0;z-index:5}
+.brand{font-size:14px;font-weight:900;color:#f9d44b;letter-spacing:.3px;display:flex;align-items:center;gap:9px}.dot{width:10px;height:10px;background:#19c987;border-radius:50%;box-shadow:0 0 12px #19c987}
+.toplink{border:1px solid #177c59;background:#073522;color:#8ef0c3;border-radius:22px;padding:9px 15px;text-decoration:none;font-size:13px;font-weight:800}
+main{max-width:540px;margin:auto;padding:0 22px}
+.panel{background:linear-gradient(140deg,#101b12,#0b130e);border:1px solid rgba(238,196,63,.25);border-radius:30px;padding:28px;margin-top:22px;box-shadow:0 15px 35px #0005}
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.card{min-height:140px;background:#070c09;border:1px solid #183326;border-radius:22px;padding:19px;display:flex;align-items:center;gap:14px;box-shadow:inset 0 1px #ffffff08;transition:.25s}
+.card:hover{transform:translateY(-3px);border-color:#247b55}
+.iconbox{width:54px;height:54px;flex:0 0 54px;border-radius:17px;display:grid;place-items:center;font-size:28px;font-weight:800;background:#073b2a;color:#3ee0a6}
+.iconbox.gold{background:#332a08;color:#ffdb47}
+.card h3{font-size:18px;line-height:1.4;margin:0 0 4px;font-weight:900;color:white}.card p{font-size:14px;line-height:1.5;margin:0;color:#9ca3af}
+.heading{text-align:center;color:#f9d34e;font-size:25px;line-height:1.5;font-weight:900;margin:0 0 20px}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.step{background:#070c09;border:1px solid #1b3025;border-radius:22px;text-align:center;padding:16px 10px;min-height:170px}
+.num{width:40px;height:40px;border-radius:50%;background:#f5bd20;color:#101010;font-size:18px;font-weight:900;display:grid;place-items:center;margin:0 auto 10px}.num.green{background:#28c995}
+.step h3{font-size:16px;line-height:1.35;margin:0 0 5px;font-weight:850}.step p{font-size:14px;line-height:1.55;color:#9ca3af;margin:0}
+.notice{text-align:center;color:#9ca3af;font-size:14px;line-height:1.65;padding:24px 8px 10px}.notice strong{display:block;color:#d1d5db;margin-bottom:7px}
+.bottom{position:fixed;bottom:0;left:0;right:0;background:#050b08;border-top:1px solid rgba(238,196,63,.2);padding:15px 22px calc(15px + env(safe-area-inset-bottom));z-index:10}
+.cta{max-width:496px;margin:auto;min-height:76px;border:2px solid #f7e98c;border-radius:23px;background:linear-gradient(100deg,#20ce70,#0da34e);display:flex;align-items:center;justify-content:center;gap:14px;color:#fff;text-decoration:none;font-size:23px;font-weight:900;box-shadow:0 0 24px #18c66b55;transition:.2s}
+.cta:hover{filter:brightness(1.08);transform:translateY(-2px)}.cta svg{width:29px;height:29px}
+@media(max-width:420px){main{padding:0 14px}.panel{padding:20px;margin-top:18px;border-radius:26px}.cards{gap:12px}.card{padding:14px 11px;gap:10px;min-height:130px;border-radius:19px}.iconbox{width:45px;height:45px;flex-basis:45px;font-size:23px;border-radius:14px}.card h3{font-size:15px}.card p{font-size:12px}.heading{font-size:22px}.steps{gap:10px}.step{padding:14px 7px;min-height:164px}.step h3{font-size:14px}.step p{font-size:12px}.cta{font-size:20px;min-height:70px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto;transition:none!important}}
+</style>
 </head>
-<body class="antialiased pb-28">
-  <header class="sticky top-0 z-40 border-b border-emerald-400/20 bg-[#06110b]/95 backdrop-blur-xl">
-    <div class="max-w-xl mx-auto px-4 py-3 flex items-center justify-between gap-3">
-      <div class="flex items-center gap-2 min-w-0">
-        <span class="relative flex h-2.5 w-2.5 shrink-0"><span class="absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-60 animate-ping"></span><span class="relative rounded-full h-2.5 w-2.5 bg-emerald-400"></span></span>
-        <span class="text-xs sm:text-sm font-extrabold tracking-wide uppercase text-amber-300">Kerala Lottery Info</span>
-      </div>
-      <a href="https://www.lotteryagent.kerala.gov.in/result/public/" target="_blank" rel="noopener noreferrer" class="shrink-0 inline-flex items-center gap-2 rounded-full border border-emerald-400/40 bg-emerald-500/10 px-3.5 py-2 text-xs font-bold text-emerald-200 hover:bg-emerald-500/20 transition">
-        <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 3h7v7M10 14 21 3M19 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h6"/></svg>
-        Official Results
-      </a>
+<body>
+<header class="top">
+  <div class="brand"><span class="dot"></span> KERALA LOTTERY INFORMATION</div>
+  <a class="toplink" href="https://www.lotteryagent.kerala.gov.in/result/public/" target="_blank" rel="noopener">↗ Official Results</a>
+</header>
+<main>
+  <section class="panel" aria-label="Information highlights">
+    <div class="cards">
+      <article class="card"><div class="iconbox">✓</div><div><h3>Official Results</h3><p>Check Published Results</p></div></article>
+      <article class="card"><div class="iconbox gold">⌕</div><div><h3>Draw Details</h3><p>Dates & Information</p></div></article>
+      <article class="card"><div class="iconbox gold">★</div><div><h3>Public Notices</h3><p>Department Updates</p></div></article>
+      <article class="card"><div class="iconbox">✓</div><div><h3>Verify Details</h3><p>Use Official Sources</p></div></article>
     </div>
-  </header>
+  </section>
 
-  <main class="max-w-xl mx-auto px-4 pt-7 space-y-7">
-    <section class="text-center space-y-4">
-      <div class="inline-flex items-center gap-2 rounded-full border border-amber-300/35 bg-amber-400/10 px-4 py-2 text-[10px] sm:text-xs font-extrabold uppercase tracking-[.16em] text-amber-200">
-        <span>◆</span> Independent information resource <span>◆</span>
-      </div>
-      <div class="space-y-2">
-        <h1 class="font-display text-3xl sm:text-4xl font-black leading-tight tracking-tight">
-          <span class="block text-white">KERALA LOTTERY</span>
-          <span class="block gold-text">RESULTS & INFORMATION</span>
-        </h1>
-        <p class="max-w-md mx-auto text-sm sm:text-base leading-relaxed text-slate-300">Find official result pages, draw information and public resources in one simple place.</p>
-      </div>
-      <div class="panel rounded-3xl p-5 sm:p-6 text-left relative overflow-hidden">
-        <div class="absolute -right-12 -top-12 w-40 h-40 rounded-full bg-emerald-400/10 blur-3xl"></div>
-        <div class="relative flex items-start gap-4">
-          <div class="w-14 h-14 shrink-0 rounded-2xl bg-emerald-500/15 border border-emerald-400/25 flex items-center justify-center text-emerald-300 animate-float-soft">
-            <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M7 3h8l4 4v14H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Z"/><path d="M15 3v5h5M8 13h8M8 17h8M8 9h2"/></svg>
-          </div>
-          <div class="min-w-0">
-            <p class="text-xs font-bold uppercase tracking-widest text-emerald-300">Start here</p>
-            <h2 class="font-display text-xl sm:text-2xl font-extrabold text-white mt-1">Check the official lottery results</h2>
-            <p class="text-sm text-slate-400 mt-2 leading-relaxed">Use the Kerala State Lotteries public portal to view published draw results. Always verify details on the government source.</p>
-          </div>
-        </div>
-        <a href="https://www.lotteryagent.kerala.gov.in/result/public/" target="_blank" rel="noopener noreferrer" class="action mt-5 w-full rounded-2xl py-4 px-5 flex items-center justify-center gap-2.5 font-display font-extrabold text-sm sm:text-base uppercase tracking-wide">
-          View Official Results
-          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-        </a>
-        <p class="text-[11px] text-slate-500 text-center mt-3">Opens the Kerala State Lotteries public results portal.</p>
-      </div>
-    </section>
-
-    <section class="panel rounded-3xl p-5 sm:p-6">
-      <div class="grid grid-cols-2 gap-3">
-        <div class="info-card rounded-2xl p-4 min-h-32">
-          <div class="w-10 h-10 rounded-xl bg-emerald-500/15 text-emerald-300 flex items-center justify-center mb-3">
-            <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 5h16v14H4zM8 9h8M8 13h5"/></svg>
-          </div>
-          <h3 class="font-extrabold text-sm text-white">Published Results</h3>
-          <p class="text-xs text-slate-400 mt-1.5 leading-relaxed">Check result notices from the official portal.</p>
-        </div>
-        <div class="info-card rounded-2xl p-4 min-h-32">
-          <div class="w-10 h-10 rounded-xl bg-amber-400/15 text-amber-300 flex items-center justify-center mb-3">
-            <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
-          </div>
-          <h3 class="font-extrabold text-sm text-white">Draw Schedule</h3>
-          <p class="text-xs text-slate-400 mt-1.5 leading-relaxed">Refer to official notices for draw dates and times.</p>
-        </div>
-        <div class="info-card rounded-2xl p-4 min-h-32">
-          <div class="w-10 h-10 rounded-xl bg-sky-400/15 text-sky-300 flex items-center justify-center mb-3">
-            <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3 3 8l9 5 9-5-9-5Z"/><path d="M3 12l9 5 9-5M3 16l9 5 9-5"/></svg>
-          </div>
-          <h3 class="font-extrabold text-sm text-white">Public Resources</h3>
-          <p class="text-xs text-slate-400 mt-1.5 leading-relaxed">Find department information and public updates.</p>
-        </div>
-        <div class="info-card rounded-2xl p-4 min-h-32">
-          <div class="w-10 h-10 rounded-xl bg-violet-400/15 text-violet-300 flex items-center justify-center mb-3">
-            <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3 4 6v5c0 5 3.4 8.2 8 10 4.6-1.8 8-5 8-10V6l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg>
-          </div>
-          <h3 class="font-extrabold text-sm text-white">Verify Carefully</h3>
-          <p class="text-xs text-slate-400 mt-1.5 leading-relaxed">Confirm every result against official documents.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="panel rounded-3xl p-5 sm:p-6 space-y-4">
-      <h2 class="font-display text-lg sm:text-xl font-black text-center uppercase tracking-wide text-amber-300">How to check a result</h2>
-      <div class="grid grid-cols-3 gap-2.5 text-center">
-        <div class="info-card rounded-2xl p-3">
-          <div class="step-number w-8 h-8 mx-auto rounded-full font-black text-sm flex items-center justify-center mb-2">1</div>
-          <p class="text-xs font-bold text-white">Open Portal</p>
-          <p class="text-[10px] sm:text-[11px] text-slate-400 mt-1 leading-relaxed">Visit the official results page.</p>
-        </div>
-        <div class="info-card rounded-2xl p-3">
-          <div class="step-number w-8 h-8 mx-auto rounded-full font-black text-sm flex items-center justify-center mb-2">2</div>
-          <p class="text-xs font-bold text-white">Choose Draw</p>
-          <p class="text-[10px] sm:text-[11px] text-slate-400 mt-1 leading-relaxed">Select the relevant draw date.</p>
-        </div>
-        <div class="info-card rounded-2xl p-3">
-          <div class="step-number w-8 h-8 mx-auto rounded-full font-black text-sm flex items-center justify-center mb-2">3</div>
-          <p class="text-xs font-bold text-white">Verify</p>
-          <p class="text-[10px] sm:text-[11px] text-slate-400 mt-1 leading-relaxed">Compare with the published result.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="panel rounded-3xl p-5 space-y-3">
-      <div class="flex items-center gap-3">
-        <div class="w-10 h-10 rounded-xl bg-amber-400/15 text-amber-300 flex items-center justify-center">
-          <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></svg>
-        </div>
-        <h2 class="font-display text-lg font-extrabold text-white">Important information</h2>
-      </div>
-      <ul class="space-y-2 text-sm text-slate-300 leading-relaxed list-disc pl-5">
-        <li>This page is an independent information resource and is not the official website of the Government of Kerala.</li>
-        <li>We do not sell lottery tickets, collect payments, reserve numbers or guarantee prizes.</li>
-        <li>Lottery participation is subject to applicable laws and official rules. Check eligibility and terms with the relevant authorities.</li>
-        <li>Never rely on forwarded messages or unofficial claims about winning numbers or prizes.</li>
-      </ul>
-    </section>
-
-    <footer class="text-center text-[11px] text-slate-500 leading-relaxed px-3 pb-3">
-      <p class="font-semibold text-slate-300">Kerala Lottery Information</p>
-      <p class="mt-1">For accurate and current information, use the official department resources linked above.</p>
-      <p class="mt-2">Independent informational page • Not affiliated with or endorsed by the Government of Kerala.</p>
-    </footer>
-  </main>
-
-  <div class="fixed bottom-0 inset-x-0 z-50 border-t border-emerald-400/20 bg-[#050b08]/95 backdrop-blur-xl px-4 pt-3 pb-3">
-    <div class="max-w-xl mx-auto">
-      <a href="https://www.lotteryagent.kerala.gov.in/result/public/" target="_blank" rel="noopener noreferrer" class="action w-full rounded-2xl py-3.5 px-5 flex items-center justify-center gap-2.5 font-display font-black text-sm sm:text-base uppercase tracking-wide">
-        <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 3h7v7M10 14 21 3M19 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h6"/></svg>
-        Check Official Results
-      </a>
+  <section class="panel">
+    <h1 class="heading">HOW TO CHECK OFFICIAL RESULTS</h1>
+    <div class="steps">
+      <article class="step"><div class="num">1</div><h3>Open Portal</h3><p>Visit Official Results</p></article>
+      <article class="step"><div class="num">2</div><h3>Select Draw</h3><p>Choose Draw Date</p></article>
+      <article class="step"><div class="num green">3</div><h3>Verify Result</h3><p>Check Official Notice</p></article>
     </div>
-  </div>
+  </section>
+
+  <div class="notice"><strong>Kerala Lottery – Information & Official Resources</strong>This is an independent information page, not an official government website. Please check applicable laws, eligibility and official terms before participating. We do not sell tickets or accept payments.</div>
+</main>
+<div class="bottom">
+  <a class="cta" href="https://www.lotteryagent.kerala.gov.in/result/public/" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 3h7v7M10 14 21 3M19 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h6"/></svg>
+    CHECK OFFICIAL RESULTS
+  </a>
+</div>
 </body>
 </html>
