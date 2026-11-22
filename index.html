@@ -1,694 +1,190 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
-<head><!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1178235478471928');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1178235478471928&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
+<head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kerala Lottery – Mega Bumper Dhamaka Offer | Official Ticket Booking</title>
-  <meta name="description" content="Win up to ₹25 Crore in the Kerala Lottery Mega Bumper Dhamaka Offer! Book your KL Series or Premium Tickets instantly via WhatsApp." />
-
-  <!-- Google Fonts: Inter & Plus Jakarta Sans for crisp modern typography -->
+  <meta name="theme-color" content="#07100b" />
+  <title>Kerala Lottery Information | Results & Official Resources</title>
+  <meta name="description" content="An independent information page with links to Kerala State Lotteries official results, draw schedules and public resources." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet" />
-
-  <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
-
-  <!-- Tailwind Custom Configuration -->
   <script>
     tailwind.config = {
-      theme: {
-        extend: {
-          fontFamily: {
-            sans: ['Inter', 'sans-serif'],
-            display: ['Plus Jakarta Sans', 'Inter', 'sans-serif'],
-          },
-          colors: {
-            obsidian: '#060c09',
-            forest: '#0a1912',
-            emeraldDeep: '#064e3b',
-            goldLight: '#fef08a',
-            goldBase: '#eab308',
-            goldRich: '#ca8a04',
-            crimsonFire: '#dc2626',
-            whatsapp: '#25D366',
-            whatsappDark: '#128C7E',
-          },
-          animation: {
-            'pulse-glow': 'pulseGlow 2.2s infinite ease-in-out',
-            'shimmer': 'shimmer 2.8s linear infinite',
-            'float': 'float 4s ease-in-out infinite',
-          },
-          keyframes: {
-            pulseGlow: {
-              '0%, 100%': {
-                transform: 'scale(1)',
-                boxShadow: '0 0 0 0 rgba(37, 211, 102, 0.65), 0 10px 28px -5px rgba(37, 211, 102, 0.5)',
-              },
-              '50%': {
-                transform: 'scale(1.025)',
-                boxShadow: '0 0 0 12px rgba(37, 211, 102, 0), 0 16px 36px -4px rgba(37, 211, 102, 0.7)',
-              },
-            },
-            shimmer: {
-              '0%': { backgroundPosition: '-200% center' },
-              '100%': { backgroundPosition: '200% center' },
-            },
-            float: {
-              '0%, 100%': { transform: 'translateY(0px)' },
-              '50%': { transform: 'translateY(-4px)' },
-            },
-          },
-        },
-      },
+      theme: { extend: {
+        fontFamily: { sans: ['Inter', 'sans-serif'], display: ['Plus Jakarta Sans', 'Inter', 'sans-serif'] },
+        colors: { forest: '#0b1a12', gold: '#facc15', emerald: '#19c987' },
+        animation: { 'float-soft': 'floatSoft 4s ease-in-out infinite', 'shine': 'shine 4s linear infinite' },
+        keyframes: {
+          floatSoft: { '0%,100%': { transform: 'translateY(0)' }, '50%': { transform: 'translateY(-5px)' } },
+          shine: { '0%': { backgroundPosition: '-200% center' }, '100%': { backgroundPosition: '200% center' } }
+        }
+      }}
     };
   </script>
-
-  <!-- Custom Glassmorphism & Metallic Utilities -->
   <style>
+    * { -webkit-tap-highlight-color: transparent; }
     body {
-      background-color: #050b08;
-      background-image:
-        radial-gradient(circle at 50% 0%, rgba(16, 185, 129, 0.16) 0%, transparent 45%),
-        radial-gradient(circle at 85% 30%, rgba(234, 179, 8, 0.12) 0%, transparent 40%),
-        radial-gradient(circle at 15% 75%, rgba(220, 38, 38, 0.12) 0%, transparent 45%);
-      color: #f8fafc;
-      overflow-x: hidden;
+      background: radial-gradient(ellipse at 50% -10%, rgba(22,163,74,.18), transparent 48%), #080d0a;
+      color: #f8fafc; overflow-x: hidden;
     }
-
-    /* Royal Gold Metallic Gradient Text */
-    .text-gold-metallic {
-      background: linear-gradient(135deg, #fef9c3 0%, #facc15 35%, #d97706 70%, #fef08a 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-size: 200% auto;
+    .gold-text {
+      background: linear-gradient(110deg,#fff7ae,#facc15,#d99a08,#fff2a1);
+      background-size: 220% auto; -webkit-background-clip: text; background-clip: text; color: transparent;
+      animation: shine 5s linear infinite;
     }
-
-    /* Glassmorphism Surface */
-    .glass-card {
-      background: rgba(13, 27, 20, 0.72);
-      backdrop-filter: blur(14px);
-      -webkit-backdrop-filter: blur(14px);
-      border: 1px solid rgba(250, 204, 21, 0.22);
-      box-shadow: 0 16px 40px -12px rgba(0, 0, 0, 0.75);
+    .panel {
+      background: linear-gradient(145deg,rgba(13,29,20,.96),rgba(8,16,12,.96));
+      border: 1px solid rgba(250,204,21,.22);
+      box-shadow: 0 18px 48px rgba(0,0,0,.35), inset 0 1px rgba(255,255,255,.025);
     }
-
-    .glass-card-crimson {
-      background: linear-gradient(145deg, rgba(127, 29, 29, 0.42), rgba(15, 23, 42, 0.8));
-      backdrop-filter: blur(14px);
-      -webkit-backdrop-filter: blur(14px);
-      border: 1px solid rgba(250, 204, 21, 0.45);
-      box-shadow: 0 20px 45px -10px rgba(220, 38, 38, 0.28);
+    .info-card {
+      background: rgba(3,10,7,.72); border: 1px solid rgba(52,211,153,.16);
+      transition: transform .22s ease,border-color .22s ease,background .22s ease;
     }
-
-    /* Metallic Gold Border Frame */
-    .gold-frame {
-      position: relative;
-      border-radius: 1.25rem;
-      padding: 3px;
-      background: linear-gradient(135deg, #fde047, #b45309, #fef08a, #ca8a04);
-      box-shadow: 0 20px 50px -12px rgba(234, 179, 8, 0.35);
+    .info-card:hover { transform: translateY(-3px); border-color: rgba(52,211,153,.45); background: rgba(5,18,12,.92); }
+    .action {
+      background: linear-gradient(105deg,#1fc978,#119b58); color: #fff;
+      box-shadow: 0 10px 28px rgba(25,201,135,.2); transition: transform .2s ease,filter .2s ease;
     }
-
-    /* Subtle shine sweep on CTA button */
-    .btn-shine {
-      position: relative;
-      overflow: hidden;
-    }
-    .btn-shine::after {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: -100%;
-      width: 60%;
-      height: 100%;
-      background: linear-gradient(
-        90deg,
-        transparent,
-        rgba(255, 255, 255, 0.38),
-        transparent
-      );
-      transform: skewX(-22deg);
-      animation: sweep 3.2s infinite;
-    }
-    @keyframes sweep {
-      0% { left: -100%; }
-      45%, 100% { left: 160%; }
+    .action:hover { filter: brightness(1.08); transform: translateY(-2px); }
+    .action:active { transform: scale(.985); }
+    .step-number { background: linear-gradient(145deg,#ffe16a,#e6a900); color:#111; }
+    @media (prefers-reduced-motion: reduce) {
+      *,*::before,*::after { animation-duration:.01ms !important; animation-iteration-count:1 !important; scroll-behavior:auto !important; transition-duration:.01ms !important; }
     }
   </style>
 </head>
-<body class="antialiased selection:bg-amber-400 selection:text-black pb-28">
-
-  <!-- Top Official Announcement Ticker Bar -->
-  <header class="sticky top-0 z-40 border-b border-amber-400/25 bg-[#06110c]/90 backdrop-blur-md">
-    <div class="max-w-xl mx-auto px-4 py-2.5 flex items-center justify-between gap-2">
-      <div class="flex items-center gap-2">
-        <span class="relative flex h-2.5 w-2.5">
-          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-          <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
-        </span>
-        <span class="text-xs sm:text-sm font-extrabold tracking-wide uppercase text-amber-300">
-          Kerala Govt Approved
-        </span>
+<body class="antialiased pb-28">
+  <header class="sticky top-0 z-40 border-b border-emerald-400/20 bg-[#06110b]/95 backdrop-blur-xl">
+    <div class="max-w-xl mx-auto px-4 py-3 flex items-center justify-between gap-3">
+      <div class="flex items-center gap-2 min-w-0">
+        <span class="relative flex h-2.5 w-2.5 shrink-0"><span class="absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-60 animate-ping"></span><span class="relative rounded-full h-2.5 w-2.5 bg-emerald-400"></span></span>
+        <span class="text-xs sm:text-sm font-extrabold tracking-wide uppercase text-amber-300">Kerala Lottery Info</span>
       </div>
-
-      <!-- Mini Top WhatsApp Action -->
-      <a
-        href="https://wa.me/9196138644?text=I%20Want%20A%20Ticket"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/20 hover:bg-emerald-500/30 border border-emerald-400/40 px-3 py-1 text-xs font-bold text-emerald-300 transition"
-      >
-        <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M20.52 3.48A11.86 11.86 0 0012.07 0C5.5 0 .16 5.34.16 11.91c0 2.1.55 4.15 1.59 5.96L0 24l6.31-1.65a11.88 11.88 0 005.76 1.47h.01c6.57 0 11.91-5.34 11.91-11.91 0-3.18-1.24-6.17-3.47-8.43zM12.08 21.8h-.01a9.87 9.87 0 01-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 01-1.51-5.26c0-5.45 4.44-9.89 9.9-9.89 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 012.9 7c0 5.45-4.44 9.88-9.9 9.88zm5.43-7.41c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.25-.46-2.39-1.47-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35z"/>
-        </svg>
-        <span>Book Now</span>
+      <a href="https://www.lotteryagent.kerala.gov.in/result/public/" target="_blank" rel="noopener noreferrer" class="shrink-0 inline-flex items-center gap-2 rounded-full border border-emerald-400/40 bg-emerald-500/10 px-3.5 py-2 text-xs font-bold text-emerald-200 hover:bg-emerald-500/20 transition">
+        <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 3h7v7M10 14 21 3M19 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h6"/></svg>
+        Official Results
       </a>
     </div>
   </header>
 
-  <!-- Main Single-Column Mobile-First Container -->
-  <main class="max-w-xl mx-auto px-4 pt-5 space-y-7">
-
-    <!-- HERO SECTION: Title, Poster Image & Primary CTA -->
+  <main class="max-w-xl mx-auto px-4 pt-7 space-y-7">
     <section class="text-center space-y-4">
-      <!-- Top Ribbon Pill -->
-      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-gradient-to-r from-red-700/80 via-red-600/80 to-red-700/80 border border-amber-300/60 shadow-lg">
-        <span class="text-amber-300 text-sm">★</span>
-        <span class="text-xs sm:text-sm font-extrabold uppercase tracking-wider text-white">
-          Big Dream • Big Win • Super Prize Announcement
-        </span>
-        <span class="text-amber-300 text-sm">★</span>
+      <div class="inline-flex items-center gap-2 rounded-full border border-amber-300/35 bg-amber-400/10 px-4 py-2 text-[10px] sm:text-xs font-extrabold uppercase tracking-[.16em] text-amber-200">
+        <span>◆</span> Independent information resource <span>◆</span>
       </div>
-
-      <!-- Main Headline -->
-      <div class="space-y-1">
-        <h1 class="font-display text-3xl sm:text-4xl font-black tracking-tight leading-tight">
-          <span class="block text-white drop-shadow">KERALA LOTTERY</span>
-          <span class="block text-gold-metallic animate-shimmer">
-            MEGA BUMPER DHAMAKA OFFER
-          </span>
+      <div class="space-y-2">
+        <h1 class="font-display text-3xl sm:text-4xl font-black leading-tight tracking-tight">
+          <span class="block text-white">KERALA LOTTERY</span>
+          <span class="block gold-text">RESULTS & INFORMATION</span>
         </h1>
-        <p class="text-sm sm:text-base text-emerald-200/90 font-medium">
-          Your Life-Changing Opportunity — Instant Digital Ticket Delivery on WhatsApp!
-        </p>
+        <p class="max-w-md mx-auto text-sm sm:text-base leading-relaxed text-slate-300">Find official result pages, draw information and public resources in one simple place.</p>
       </div>
-
-      <!-- Promotional Poster Card -->
-      <div class="gold-frame">
-        <div class="relative rounded-[1.08rem] overflow-hidden bg-emerald-950">
-          <img
-            src="WhatsApp Image 2026-11-22 at 9.28.42 AM.jpeg"
-            alt="Kerala Lottery Mega Bumper Dhamaka Offer Official Promotional Poster"
-            class="w-full h-auto object-cover block"
-            onerror="this.onerror=null; this.src='https://placehold.co/800x800/064e3b/fde047?text=KERALA+LOTTERY+MEGA+BUMPER+DHAMAKA+OFFER';"
-          />
-          <!-- Bottom Gradient Overlay Tag -->
-          <div class="bg-gradient-to-t from-black/90 via-black/50 to-transparent px-4 py-3 flex items-center justify-between text-xs font-bold text-amber-200">
-            <span>1st Prize: ₹25 Crore</span>
-            <span class="px-2.5 py-0.5 rounded-full bg-red-600 text-white uppercase tracking-wider text-[11px]">
-              Limited Tickets
-            </span>
+      <div class="panel rounded-3xl p-5 sm:p-6 text-left relative overflow-hidden">
+        <div class="absolute -right-12 -top-12 w-40 h-40 rounded-full bg-emerald-400/10 blur-3xl"></div>
+        <div class="relative flex items-start gap-4">
+          <div class="w-14 h-14 shrink-0 rounded-2xl bg-emerald-500/15 border border-emerald-400/25 flex items-center justify-center text-emerald-300 animate-float-soft">
+            <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M7 3h8l4 4v14H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Z"/><path d="M15 3v5h5M8 13h8M8 17h8M8 9h2"/></svg>
+          </div>
+          <div class="min-w-0">
+            <p class="text-xs font-bold uppercase tracking-widest text-emerald-300">Start here</p>
+            <h2 class="font-display text-xl sm:text-2xl font-extrabold text-white mt-1">Check the official lottery results</h2>
+            <p class="text-sm text-slate-400 mt-2 leading-relaxed">Use the Kerala State Lotteries public portal to view published draw results. Always verify details on the government source.</p>
           </div>
         </div>
-      </div>
-
-      <!-- Primary Inline CTA Button -->
-      <div class="pt-1">
-        <a
-          href="https://wa.me/9196138644?text=I%20Want%20A%20Ticket"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="btn-shine animate-pulse-glow w-full flex items-center justify-center gap-3 rounded-2xl bg-gradient-to-r from-[#25D366] via-[#22c55e] to-[#16a34a] hover:from-[#2be06e] hover:to-[#15803d] text-white font-display font-black text-lg sm:text-xl uppercase tracking-wide py-4 px-6 border-2 border-amber-200/80 shadow-2xl transition-all active:scale-[0.98]"
-        >
-          <!-- Crisp WhatsApp SVG Icon -->
-          <svg class="w-7 h-7 fill-current shrink-0 drop-shadow" viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M20.52 3.48A11.86 11.86 0 0012.07 0C5.5 0 .16 5.34.16 11.91c0 2.1.55 4.15 1.59 5.96L0 24l6.31-1.65a11.88 11.88 0 005.76 1.47h.01c6.57 0 11.91-5.34 11.91-11.91 0-3.18-1.24-6.17-3.47-8.43zM12.08 21.8h-.01a9.87 9.87 0 01-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 01-1.51-5.26c0-5.45 4.44-9.89 9.9-9.89 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 012.9 7c0 5.45-4.44 9.88-9.9 9.88zm5.43-7.41c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.25-.46-2.39-1.47-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35z"/>
-          </svg>
-          <span>I Want A Ticket</span>
+        <a href="https://www.lotteryagent.kerala.gov.in/result/public/" target="_blank" rel="noopener noreferrer" class="action mt-5 w-full rounded-2xl py-4 px-5 flex items-center justify-center gap-2.5 font-display font-extrabold text-sm sm:text-base uppercase tracking-wide">
+          View Official Results
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
         </a>
-        <p class="mt-2 text-xs text-slate-400 flex items-center justify-center gap-1.5">
-          <svg class="w-4 h-4 text-emerald-400" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-          </svg>
-          <span>Instant reply on WhatsApp • Choose your lucky number</span>
-        </p>
+        <p class="text-[11px] text-slate-500 text-center mt-3">Opens the Kerala State Lotteries public results portal.</p>
       </div>
     </section>
 
-    <!-- LIVE COUNTDOWN TIMER BANNER -->
-    <section class="glass-card rounded-2xl p-4 sm:p-5 text-center border border-amber-400/35">
-      <div class="flex items-center justify-center gap-2 mb-3">
-        <span class="inline-block w-2 h-2 rounded-full bg-red-500 animate-ping"></span>
-        <h2 class="text-xs sm:text-sm font-extrabold uppercase tracking-widest text-amber-300">
-          Next Mega Draw Closing In
-        </h2>
-      </div>
-
-      <div class="grid grid-cols-4 gap-2 sm:gap-3 max-w-sm mx-auto" id="countdown-grid">
-        <div class="rounded-xl bg-black/60 border border-amber-400/30 py-2.5 px-1">
-          <div id="cd-days" class="font-display text-2xl sm:text-3xl font-black text-white">01</div>
-          <div class="text-[10px] sm:text-xs font-bold uppercase tracking-wider text-amber-300/90 mt-0.5">Days</div>
-        </div>
-        <div class="rounded-xl bg-black/60 border border-amber-400/30 py-2.5 px-1">
-          <div id="cd-hours" class="font-display text-2xl sm:text-3xl font-black text-white">14</div>
-          <div class="text-[10px] sm:text-xs font-bold uppercase tracking-wider text-amber-300/90 mt-0.5">Hours</div>
-        </div>
-        <div class="rounded-xl bg-black/60 border border-amber-400/30 py-2.5 px-1">
-          <div id="cd-minutes" class="font-display text-2xl sm:text-3xl font-black text-white">38</div>
-          <div class="text-[10px] sm:text-xs font-bold uppercase tracking-wider text-amber-300/90 mt-0.5">Mins</div>
-        </div>
-        <div class="rounded-xl bg-red-950/70 border border-red-500/50 py-2.5 px-1">
-          <div id="cd-seconds" class="font-display text-2xl sm:text-3xl font-black text-amber-300">52</div>
-          <div class="text-[10px] sm:text-xs font-bold uppercase tracking-wider text-red-300 mt-0.5">Secs</div>
-        </div>
-      </div>
-
-      <p class="mt-3 text-xs text-slate-300">
-        Check official result date &amp; time. Follow official updates continuously!
-      </p>
-    </section>
-
-    <!-- PRIZE DETAILS SECTION (1st to 8th Prize) -->
-    <section aria-labelledby="prize-heading" class="glass-card rounded-3xl p-5 sm:p-6 space-y-4">
-      <div class="flex items-center justify-between border-b border-amber-400/20 pb-3.5">
-        <div class="flex items-center gap-3">
-          <!-- Trophy SVG Icon -->
-          <div class="w-11 h-11 rounded-2xl bg-gradient-to-br from-amber-300 to-amber-600 flex items-center justify-center text-black shadow-lg shrink-0">
-            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M19 5h-2V3H7v2H5c-1.1 0-2 .9-2 2v1c0 2.55 1.92 4.63 4.39 4.94A5.01 5.01 0 0011 15.9V19H7v2h10v-2h-4v-3.1a5.01 5.01 0 003.61-2.96C19.08 12.63 21 10.55 21 8V7c0-1.1-.9-2-2-2zM5 8V7h2v3.82C5.84 10.4 5 9.3 5 8zm14 0c0 1.3-.84 2.4-2 2.82V7h2v1z"/>
-            </svg>
+    <section class="panel rounded-3xl p-5 sm:p-6">
+      <div class="grid grid-cols-2 gap-3">
+        <div class="info-card rounded-2xl p-4 min-h-32">
+          <div class="w-10 h-10 rounded-xl bg-emerald-500/15 text-emerald-300 flex items-center justify-center mb-3">
+            <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 5h16v14H4zM8 9h8M8 13h5"/></svg>
           </div>
-          <div>
-            <h2 id="prize-heading" class="font-display text-xl sm:text-2xl font-black text-white">
-              Prize Details
-            </h2>
-            <p class="text-xs text-amber-300 font-semibold">Bumper Cash Payouts • 1st to 8th Rank</p>
-          </div>
+          <h3 class="font-extrabold text-sm text-white">Published Results</h3>
+          <p class="text-xs text-slate-400 mt-1.5 leading-relaxed">Check result notices from the official portal.</p>
         </div>
-        <span class="px-2.5 py-1 rounded-lg bg-amber-400/15 border border-amber-400/30 text-[11px] font-bold text-amber-300 uppercase">
-          8 Tiers
-        </span>
-      </div>
-
-      <!-- Featured 1st & 2nd Bumper Cards -->
-      <div class="grid grid-cols-1 gap-3">
-        <!-- 1st Prize -->
-        <div class="relative overflow-hidden rounded-2xl bg-gradient-to-r from-red-900/90 via-red-800/85 to-amber-900/80 border-2 border-amber-300 p-4 flex items-center justify-between shadow-xl">
-          <div class="flex items-center gap-3.5">
-            <span class="w-10 h-10 rounded-full bg-gradient-to-b from-yellow-200 via-amber-400 to-amber-600 text-black font-display font-black text-lg flex items-center justify-center shadow-md ring-2 ring-white/50">
-              1
-            </span>
-            <div>
-              <span class="inline-block text-[11px] font-extrabold uppercase tracking-wider text-amber-200 bg-black/30 px-2 py-0.5 rounded">
-                Mega Jackpot • 1st Prize
-              </span>
-              <div class="font-display text-2xl sm:text-3xl font-black text-white tracking-tight mt-0.5">
-                ₹25 Crore
-              </div>
-            </div>
+        <div class="info-card rounded-2xl p-4 min-h-32">
+          <div class="w-10 h-10 rounded-xl bg-amber-400/15 text-amber-300 flex items-center justify-center mb-3">
+            <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
           </div>
-          <span class="text-2xl sm:text-3xl" aria-hidden="true">👑</span>
+          <h3 class="font-extrabold text-sm text-white">Draw Schedule</h3>
+          <p class="text-xs text-slate-400 mt-1.5 leading-relaxed">Refer to official notices for draw dates and times.</p>
         </div>
-
-        <!-- 2nd Prize -->
-        <div class="rounded-2xl bg-gradient-to-r from-emerald-950/90 to-emerald-900/70 border border-amber-400/50 p-3.5 flex items-center justify-between">
-          <div class="flex items-center gap-3.5">
-            <span class="w-9 h-9 rounded-full bg-gradient-to-b from-slate-100 to-slate-400 text-slate-950 font-display font-black text-base flex items-center justify-center shadow">
-              2
-            </span>
-            <div>
-              <span class="text-xs font-bold uppercase tracking-wider text-emerald-300">2nd Prize</span>
-              <div class="font-display text-xl sm:text-2xl font-black text-amber-300">
-                ₹12 Crore
-              </div>
-            </div>
+        <div class="info-card rounded-2xl p-4 min-h-32">
+          <div class="w-10 h-10 rounded-xl bg-sky-400/15 text-sky-300 flex items-center justify-center mb-3">
+            <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3 3 8l9 5 9-5-9-5Z"/><path d="M3 12l9 5 9-5M3 16l9 5 9-5"/></svg>
           </div>
-          <span class="text-xs font-bold px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-400/30">
-            Super Bumper
-          </span>
+          <h3 class="font-extrabold text-sm text-white">Public Resources</h3>
+          <p class="text-xs text-slate-400 mt-1.5 leading-relaxed">Find department information and public updates.</p>
         </div>
-      </div>
-
-      <!-- 3rd to 8th Prize Clean List -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5 pt-1">
-        <!-- 3rd Prize -->
-        <div class="flex items-center justify-between rounded-xl bg-white/[0.04] border border-white/10 px-3.5 py-3">
-          <div class="flex items-center gap-2.5">
-            <span class="w-7 h-7 rounded-full bg-gradient-to-b from-amber-500 to-orange-700 text-white font-extrabold text-xs flex items-center justify-center">3</span>
-            <span class="text-sm font-semibold text-slate-200">3rd Prize</span>
+        <div class="info-card rounded-2xl p-4 min-h-32">
+          <div class="w-10 h-10 rounded-xl bg-violet-400/15 text-violet-300 flex items-center justify-center mb-3">
+            <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3 4 6v5c0 5 3.4 8.2 8 10 4.6-1.8 8-5 8-10V6l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg>
           </div>
-          <span class="font-display font-extrabold text-base text-amber-300">₹50 Lakh</span>
-        </div>
-
-        <!-- 4th Prize -->
-        <div class="flex items-center justify-between rounded-xl bg-white/[0.04] border border-white/10 px-3.5 py-3">
-          <div class="flex items-center gap-2.5">
-            <span class="w-7 h-7 rounded-full bg-emerald-600 text-white font-extrabold text-xs flex items-center justify-center">4</span>
-            <span class="text-sm font-semibold text-slate-200">4th Prize</span>
-          </div>
-          <span class="font-display font-extrabold text-base text-amber-300">₹12 Lakh</span>
-        </div>
-
-        <!-- 5th Prize -->
-        <div class="flex items-center justify-between rounded-xl bg-white/[0.04] border border-white/10 px-3.5 py-3">
-          <div class="flex items-center gap-2.5">
-            <span class="w-7 h-7 rounded-full bg-sky-600 text-white font-extrabold text-xs flex items-center justify-center">5</span>
-            <span class="text-sm font-semibold text-slate-200">5th Prize</span>
-          </div>
-          <span class="font-display font-extrabold text-base text-amber-300">₹8 Lakh</span>
-        </div>
-
-        <!-- 6th Prize -->
-        <div class="flex items-center justify-between rounded-xl bg-white/[0.04] border border-white/10 px-3.5 py-3">
-          <div class="flex items-center gap-2.5">
-            <span class="w-7 h-7 rounded-full bg-purple-600 text-white font-extrabold text-xs flex items-center justify-center">6</span>
-            <span class="text-sm font-semibold text-slate-200">6th Prize</span>
-          </div>
-          <span class="font-display font-extrabold text-base text-amber-300">₹5 Lakh</span>
-        </div>
-
-        <!-- 7th Prize -->
-        <div class="flex items-center justify-between rounded-xl bg-white/[0.04] border border-white/10 px-3.5 py-3">
-          <div class="flex items-center gap-2.5">
-            <span class="w-7 h-7 rounded-full bg-pink-600 text-white font-extrabold text-xs flex items-center justify-center">7</span>
-            <span class="text-sm font-semibold text-slate-200">7th Prize</span>
-          </div>
-          <span class="font-display font-extrabold text-base text-amber-300">₹2 Lakh</span>
-        </div>
-
-        <!-- 8th Prize -->
-        <div class="flex items-center justify-between rounded-xl bg-white/[0.04] border border-white/10 px-3.5 py-3">
-          <div class="flex items-center gap-2.5">
-            <span class="w-7 h-7 rounded-full bg-indigo-600 text-white font-extrabold text-xs flex items-center justify-center">8</span>
-            <span class="text-sm font-semibold text-slate-200">8th Prize</span>
-          </div>
-          <span class="font-display font-extrabold text-base text-amber-300">₹1 Lakh</span>
+          <h3 class="font-extrabold text-sm text-white">Verify Carefully</h3>
+          <p class="text-xs text-slate-400 mt-1.5 leading-relaxed">Confirm every result against official documents.</p>
         </div>
       </div>
     </section>
 
-    <!-- TICKET PRICING & CATEGORIES SECTION -->
-    <section aria-labelledby="pricing-heading" class="space-y-4">
-      <div class="text-center space-y-1">
-        <span class="inline-block px-3 py-1 rounded-full bg-amber-400/15 border border-amber-400/30 text-xs font-extrabold uppercase tracking-wider text-amber-300">
-          Affordable Entry Packages
-        </span>
-        <h2 id="pricing-heading" class="font-display text-2xl sm:text-3xl font-black text-white">
-          Ticket Pricing &amp; Categories
-        </h2>
-        <p class="text-xs sm:text-sm text-slate-300">
-          Select your preferred category and message us on WhatsApp to claim your ticket!
-        </p>
-      </div>
-
-      <div class="grid grid-cols-1 gap-4">
-        <!-- Category 1: KL Series Ticket -->
-        <div class="glass-card rounded-3xl p-5 border-2 border-emerald-500/45 relative overflow-hidden">
-          <div class="flex items-center justify-between mb-4">
-            <div class="flex items-center gap-2.5">
-              <div class="w-10 h-10 rounded-xl bg-emerald-600/30 border border-emerald-400/40 flex items-center justify-center text-emerald-300">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 5v2m0 4v2m0 4v2M5 5a2 2 0 00-2 2v3a2 2 0 110 4v3a2 2 0 002 2h14a2 2 0 002-2v-3a2 2 0 110-4V7a2 2 0 00-2-2H5z" />
-                </svg>
-              </div>
-              <div>
-                <h3 class="font-display text-lg sm:text-xl font-black text-emerald-300">
-                  KL Series Ticket
-                </h3>
-                <p class="text-xs text-slate-300">Official Bumper Series Entry</p>
-              </div>
-            </div>
-            <span class="px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 text-[11px] font-extrabold uppercase">
-              Popular
-            </span>
-          </div>
-
-          <div class="grid grid-cols-2 gap-3">
-            <!-- 1 Ticket Option -->
-            <a
-              href="https://wa.me/9196138644?text=I%20Want%20A%20Ticket"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="group rounded-2xl bg-black/50 hover:bg-emerald-950/70 border border-white/15 hover:border-emerald-400 p-4 text-center transition"
-            >
-              <div class="text-xs font-bold uppercase tracking-wider text-slate-300">Single Entry</div>
-              <div class="font-display text-lg font-extrabold text-white mt-1">1 Ticket</div>
-              <div class="font-display text-2xl sm:text-3xl font-black text-amber-300 mt-1">₹149/-</div>
-              <div class="mt-2.5 inline-flex items-center gap-1 text-[11px] font-bold text-emerald-400 group-hover:underline">
-                <span>Select</span>
-                <span>→</span>
-              </div>
-            </a>
-
-            <!-- 3 Tickets Combo Option -->
-            <a
-              href="https://wa.me/9196138644?text=I%20Want%20A%20Ticket"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="group relative rounded-2xl bg-gradient-to-b from-emerald-900/70 to-black/70 border-2 border-amber-400/70 hover:border-amber-300 p-4 text-center transition shadow-lg"
-            >
-              <span class="absolute -top-2.5 left-1/2 -translate-x-1/2 bg-amber-400 text-black text-[10px] font-black uppercase px-2.5 py-0.5 rounded-full whitespace-nowrap shadow">
-                Best Value • Save ₹148
-              </span>
-              <div class="text-xs font-bold uppercase tracking-wider text-emerald-200 mt-1">Triple Luck</div>
-              <div class="font-display text-lg font-extrabold text-white mt-0.5">3 Tickets</div>
-              <div class="font-display text-2xl sm:text-3xl font-black text-amber-300 mt-1">₹299/-</div>
-              <div class="mt-2.5 inline-flex items-center gap-1 text-[11px] font-bold text-amber-300 group-hover:underline">
-                <span>Select Combo</span>
-                <span>→</span>
-              </div>
-            </a>
-          </div>
-        </div>
-
-        <!-- Category 2: Premium Ticket -->
-        <div class="glass-card-crimson rounded-3xl p-5 relative overflow-hidden">
-          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-            <div class="space-y-1.5">
-              <div class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-purple-600/40 border border-purple-300/40 text-purple-200 text-[11px] font-extrabold uppercase tracking-wider">
-                <span>★ VIP High-Priority Series</span>
-              </div>
-              <h3 class="font-display text-xl sm:text-2xl font-black text-white">
-                Premium Ticket
-              </h3>
-              <p class="text-xs sm:text-sm text-amber-100/90">
-                1 Premium Ticket • Special High-Win Series Allocation
-              </p>
-            </div>
-
-            <div class="flex sm:flex-col items-center sm:items-end justify-between border-t sm:border-t-0 border-white/15 pt-3 sm:pt-0">
-              <div class="text-left sm:text-right">
-                <span class="text-[11px] uppercase font-bold text-amber-200 block">1 Premium Ticket</span>
-                <span class="font-display text-3xl sm:text-4xl font-black text-gold-metallic">₹500/-</span>
-              </div>
-              <a
-                href="https://wa.me/9196138644?text=I%20Want%20A%20Ticket"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="mt-0 sm:mt-2 inline-flex items-center gap-1.5 rounded-xl bg-amber-400 hover:bg-amber-300 text-black font-extrabold text-xs uppercase tracking-wider px-4 py-2.5 shadow-md transition"
-              >
-                <span>Claim VIP</span>
-                <span>→</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Second Prominent Inline CTA Button -->
-      <div class="pt-2">
-        <a
-          href="https://wa.me/9196138644?text=I%20Want%20A%20Ticket"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="btn-shine w-full flex items-center justify-center gap-3 rounded-2xl bg-gradient-to-r from-[#25D366] via-[#22c55e] to-[#16a34a] hover:from-[#2be06e] hover:to-[#15803d] text-white font-display font-black text-lg sm:text-xl uppercase tracking-wide py-4 px-6 border-2 border-amber-200/80 shadow-2xl transition-all active:scale-[0.98]"
-        >
-          <svg class="w-7 h-7 fill-current shrink-0" viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M20.52 3.48A11.86 11.86 0 0012.07 0C5.5 0 .16 5.34.16 11.91c0 2.1.55 4.15 1.59 5.96L0 24l6.31-1.65a11.88 11.88 0 005.76 1.47h.01c6.57 0 11.91-5.34 11.91-11.91 0-3.18-1.24-6.17-3.47-8.43zM12.08 21.8h-.01a9.87 9.87 0 01-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 01-1.51-5.26c0-5.45 4.44-9.89 9.9-9.89 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 012.9 7c0 5.45-4.44 9.88-9.9 9.88zm5.43-7.41c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.25-.46-2.39-1.47-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35z"/>
-          </svg>
-          <span>I Want A Ticket</span>
-        </a>
-      </div>
-    </section>
-
-    <!-- TRUST BADGES SECTION -->
-    <section aria-label="Trust and Security Guarantees" class="glass-card rounded-3xl p-5">
-      <div class="grid grid-cols-2 gap-3.5">
-        <!-- Badge 1: 100% Trusted -->
-        <div class="flex items-center gap-3 rounded-2xl bg-black/45 border border-emerald-500/25 p-3.5">
-          <div class="w-10 h-10 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center shrink-0">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-            </svg>
-          </div>
-          <div>
-            <div class="text-sm font-extrabold text-white">100% Trusted</div>
-            <div class="text-[11px] text-slate-400">Verified Service</div>
-          </div>
-        </div>
-
-        <!-- Badge 2: Safe & Secure -->
-        <div class="flex items-center gap-3 rounded-2xl bg-black/45 border border-emerald-500/25 p-3.5">
-          <div class="w-10 h-10 rounded-xl bg-amber-500/20 text-amber-300 flex items-center justify-center shrink-0">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-            </svg>
-          </div>
-          <div>
-            <div class="text-sm font-extrabold text-white">Safe &amp; Secure</div>
-            <div class="text-[11px] text-slate-400">Instant Receipt</div>
-          </div>
-        </div>
-
-        <!-- Badge 3: Trusted by Millions -->
-        <div class="flex items-center gap-3 rounded-2xl bg-black/45 border border-emerald-500/25 p-3.5">
-          <div class="w-10 h-10 rounded-xl bg-yellow-500/20 text-yellow-300 flex items-center justify-center shrink-0">
-            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-            </svg>
-          </div>
-          <div>
-            <div class="text-sm font-extrabold text-white">Trusted by Millions</div>
-            <div class="text-[11px] text-slate-400">Happy Winners</div>
-          </div>
-        </div>
-
-        <!-- Badge 4: Kerala Govt Approved -->
-        <div class="flex items-center gap-3 rounded-2xl bg-black/45 border border-emerald-500/25 p-3.5">
-          <div class="w-10 h-10 rounded-xl bg-emerald-500/20 text-emerald-300 flex items-center justify-center shrink-0">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-            </svg>
-          </div>
-          <div>
-            <div class="text-sm font-extrabold text-white">Kerala Govt Approved</div>
-            <div class="text-[11px] text-slate-400">Official Draw</div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- SIMPLE 3-STEP HOW TO BOOK GUIDE -->
-    <section class="glass-card rounded-3xl p-5 space-y-3.5">
-      <h2 class="font-display text-lg font-black text-amber-300 text-center uppercase tracking-wide">
-        How to Get Your Ticket in 30 Seconds
-      </h2>
+    <section class="panel rounded-3xl p-5 sm:p-6 space-y-4">
+      <h2 class="font-display text-lg sm:text-xl font-black text-center uppercase tracking-wide text-amber-300">How to check a result</h2>
       <div class="grid grid-cols-3 gap-2.5 text-center">
-        <div class="rounded-2xl bg-black/40 p-3 border border-white/10">
-          <div class="w-7 h-7 mx-auto rounded-full bg-amber-400 text-black font-black text-xs flex items-center justify-center mb-1.5">1</div>
-          <p class="text-xs font-bold text-white">Tap Button</p>
-          <p class="text-[11px] text-slate-400 mt-0.5">Click "I Want A Ticket"</p>
+        <div class="info-card rounded-2xl p-3">
+          <div class="step-number w-8 h-8 mx-auto rounded-full font-black text-sm flex items-center justify-center mb-2">1</div>
+          <p class="text-xs font-bold text-white">Open Portal</p>
+          <p class="text-[10px] sm:text-[11px] text-slate-400 mt-1 leading-relaxed">Visit the official results page.</p>
         </div>
-        <div class="rounded-2xl bg-black/40 p-3 border border-white/10">
-          <div class="w-7 h-7 mx-auto rounded-full bg-amber-400 text-black font-black text-xs flex items-center justify-center mb-1.5">2</div>
-          <p class="text-xs font-bold text-white">Pick Number</p>
-          <p class="text-[11px] text-slate-400 mt-0.5">Chat on WhatsApp</p>
+        <div class="info-card rounded-2xl p-3">
+          <div class="step-number w-8 h-8 mx-auto rounded-full font-black text-sm flex items-center justify-center mb-2">2</div>
+          <p class="text-xs font-bold text-white">Choose Draw</p>
+          <p class="text-[10px] sm:text-[11px] text-slate-400 mt-1 leading-relaxed">Select the relevant draw date.</p>
         </div>
-        <div class="rounded-2xl bg-black/40 p-3 border border-white/10">
-          <div class="w-7 h-7 mx-auto rounded-full bg-emerald-400 text-black font-black text-xs flex items-center justify-center mb-1.5">3</div>
-          <p class="text-xs font-bold text-white">Get Ticket</p>
-          <p class="text-[11px] text-slate-400 mt-0.5">Instant Copy Sent</p>
+        <div class="info-card rounded-2xl p-3">
+          <div class="step-number w-8 h-8 mx-auto rounded-full font-black text-sm flex items-center justify-center mb-2">3</div>
+          <p class="text-xs font-bold text-white">Verify</p>
+          <p class="text-[10px] sm:text-[11px] text-slate-400 mt-1 leading-relaxed">Compare with the published result.</p>
         </div>
       </div>
     </section>
 
-    <!-- Footer Disclaimer -->
-    <footer class="text-center text-[11px] text-slate-400 space-y-1.5 pt-2 pb-4 px-2">
-      <p class="font-semibold text-slate-300">
-        Kerala Lottery – Mega Bumper Dhamaka Offer
-      </p>
-      <p>
-        Participants must be 18+ years of age. Please check official draw results and terms before participating.
-      </p>
-    </footer>
+    <section class="panel rounded-3xl p-5 space-y-3">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-amber-400/15 text-amber-300 flex items-center justify-center">
+          <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></svg>
+        </div>
+        <h2 class="font-display text-lg font-extrabold text-white">Important information</h2>
+      </div>
+      <ul class="space-y-2 text-sm text-slate-300 leading-relaxed list-disc pl-5">
+        <li>This page is an independent information resource and is not the official website of the Government of Kerala.</li>
+        <li>We do not sell lottery tickets, collect payments, reserve numbers or guarantee prizes.</li>
+        <li>Lottery participation is subject to applicable laws and official rules. Check eligibility and terms with the relevant authorities.</li>
+        <li>Never rely on forwarded messages or unofficial claims about winning numbers or prizes.</li>
+      </ul>
+    </section>
 
+    <footer class="text-center text-[11px] text-slate-500 leading-relaxed px-3 pb-3">
+      <p class="font-semibold text-slate-300">Kerala Lottery Information</p>
+      <p class="mt-1">For accurate and current information, use the official department resources linked above.</p>
+      <p class="mt-2">Independent informational page • Not affiliated with or endorsed by the Government of Kerala.</p>
+    </footer>
   </main>
 
-  <!-- STICKY BOTTOM MOBILE CONVERSION BAR -->
-  <div class="fixed bottom-0 inset-x-0 z-50 bg-gradient-to-t from-[#030806] via-[#06120c]/95 to-transparent pt-3 pb-3 px-4 border-t border-amber-400/25 backdrop-blur-lg">
+  <div class="fixed bottom-0 inset-x-0 z-50 border-t border-emerald-400/20 bg-[#050b08]/95 backdrop-blur-xl px-4 pt-3 pb-3">
     <div class="max-w-xl mx-auto">
-      <a
-        href="https://wa.me/9196138644?text=I%20Want%20A%20Ticket"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="btn-shine w-full flex items-center justify-center gap-3 rounded-2xl bg-gradient-to-r from-[#25D366] via-[#22c55e] to-[#16a34a] hover:from-[#2be06e] hover:to-[#15803d] text-white font-display font-black text-base sm:text-lg uppercase tracking-wide py-3.5 px-5 border-2 border-amber-200 shadow-[0_10px_30px_rgba(37,211,102,0.45)] transition-transform active:scale-[0.98]"
-      >
-        <svg class="w-6 h-6 fill-current shrink-0" viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M20.52 3.48A11.86 11.86 0 0012.07 0C5.5 0 .16 5.34.16 11.91c0 2.1.55 4.15 1.59 5.96L0 24l6.31-1.65a11.88 11.88 0 005.76 1.47h.01c6.57 0 11.91-5.34 11.91-11.91 0-3.18-1.24-6.17-3.47-8.43zM12.08 21.8h-.01a9.87 9.87 0 01-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 01-1.51-5.26c0-5.45 4.44-9.89 9.9-9.89 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 012.9 7c0 5.45-4.44 9.88-9.9 9.88zm5.43-7.41c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.25-.46-2.39-1.47-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35z"/>
-        </svg>
-        <span>I Want A Ticket</span>
+      <a href="https://www.lotteryagent.kerala.gov.in/result/public/" target="_blank" rel="noopener noreferrer" class="action w-full rounded-2xl py-3.5 px-5 flex items-center justify-center gap-2.5 font-display font-black text-sm sm:text-base uppercase tracking-wide">
+        <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 3h7v7M10 14 21 3M19 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h6"/></svg>
+        Check Official Results
       </a>
     </div>
   </div>
-
-  <!-- Live Countdown Timer Logic -->
-  <script>
-    (function () {
-      try {
-        // Persist a rolling 38-hour countdown in sessionStorage so it feels live & urgent
-        const STORAGE_KEY = 'kl_bumper_draw_target';
-        let targetTimestamp = parseInt(sessionStorage.getItem(STORAGE_KEY), 10);
-
-        if (!targetTimestamp || isNaN(targetTimestamp) || targetTimestamp <= Date.now()) {
-          // 1 day, 14 hours, 38 minutes, 52 seconds from initial visit
-          const offsetMs = ((1 * 24 + 14) * 60 + 38) * 60 * 1000 + 52 * 1000;
-          targetTimestamp = Date.now() + offsetMs;
-          sessionStorage.setItem(STORAGE_KEY, String(targetTimestamp));
-        }
-
-        const daysEl = document.getElementById('cd-days');
-        const hoursEl = document.getElementById('cd-hours');
-        const minutesEl = document.getElementById('cd-minutes');
-        const secondsEl = document.getElementById('cd-seconds');
-
-        function pad(num) {
-          return String(Math.max(0, num)).padStart(2, '0');
-        }
-
-        function updateTimer() {
-          const now = Date.now();
-          let diff = targetTimestamp - now;
-
-          if (diff <= 0) {
-            targetTimestamp = now + 24 * 60 * 60 * 1000;
-            sessionStorage.setItem(STORAGE_KEY, String(targetTimestamp));
-            diff = targetTimestamp - now;
-          }
-
-          const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-          const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
-          const minutes = Math.floor((diff / (1000 * 60)) % 60);
-          const seconds = Math.floor((diff / 1000) % 60);
-
-          if (daysEl) daysEl.textContent = pad(days);
-          if (hoursEl) hoursEl.textContent = pad(hours);
-          if (minutesEl) minutesEl.textContent = pad(minutes);
-          if (secondsEl) secondsEl.textContent = pad(seconds);
-        }
-
-        updateTimer();
-        setInterval(updateTimer, 1000);
-      } catch (err) {
-        console.error('Countdown timer error:', err);
-      }
-    })();
-  </script>
 </body>
 </html>
